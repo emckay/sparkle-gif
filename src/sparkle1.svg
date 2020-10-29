@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.252411 33.25248" height="125.67867" width="125.67841">
+  <defs>
+    <radialGradient id="fadeGrad">
+      <stop offset="0%" stop-opacity="1" stop-color="white"/>
+      <stop offset="50%" stop-opacity="0.1" stop-color="white"/>
+    </radialGradient>
+    <mask id="fade" maskContentUnits="objectBoundingBox">
+      <rect width="1" height="1" fill="url(#fadeGrad)"/>
+    </mask>
+  </defs>
+  <g transform="translate(-102.05832,-61.14757)">
+    <path mask="url(#fade)" fill="white" d="m 119.94027,78.310914 15.37046,-0.536928 -15.37046,-0.53728 5.92476,-6.643511 -6.64354,5.924902 -0.5369,-15.370527 -0.53699,15.370527 -6.64355,-5.924902 5.92462,6.643511 -15.37035,0.53728 15.37035,0.536928 -5.92462,6.643511 6.64355,-5.924903 0.53699,15.370527 0.5369,-15.370527 6.64354,5.924903 -5.92476,-6.643511"/>
+  </g>
+</svg>
