@@ -129,6 +129,7 @@ function App() {
     <div className="App">
       <input
         type="file"
+        accept="image/*"
         onChange={async (e) => {
           setIsLoading(true);
           setOutputSrc(null);
