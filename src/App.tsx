@@ -22,13 +22,13 @@ const addNoise = (ctx: CanvasRenderingContext2D, options: AddNoiseOptions) => {
       }
       let r, g, b: number;
       if (options.sameRgb) {
-        r = Math.floor(Math.random() * 255);
+        r = Math.floor(Math.random() * 80 + 105);
         g = r;
         b = r;
       } else {
-        r = Math.floor(Math.random() * 255);
-        g = Math.floor(Math.random() * 255);
-        b = Math.floor(Math.random() * 255);
+        r = Math.floor(Math.random() * 80 + 105);
+        g = Math.floor(Math.random() * 80 + 105);
+        b = Math.floor(Math.random() * 80 + 105);
       }
       ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${options.opacity})`;
       ctx.fillRect(x, y, 1, 1);
